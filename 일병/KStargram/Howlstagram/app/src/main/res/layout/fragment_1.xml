@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/frafment_1"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+
+
+    <FrameLayout
+            android:layout_above="@+id/bottom_navigation"
+            android:layout_below="@+id/my_toolbar"
+            android:id="@+id/main_content1234"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+    >
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+
+        >
+            <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/weather"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="오늘도 맛있는 걸 먹자"
+            >
+
+            </TextView>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+
+                          android:layout_weight="1">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:id="@+id/button11"
+                        android:src="@drawable/koreafood"
+                />
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:id="@+id/button12"
+                        android:src="@drawable/chinese"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button13"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/japan"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+            >
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:id="@+id/button14"
+                        android:src="@drawable/burgericon"
+                />
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:id="@+id/button15"
+                        android:src="@drawable/chicken"/>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button16"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/pizza"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+            >
+
+                <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:id="@+id/button17"
+                        android:src="@drawable/cafe"
+                />
+
+                <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:id="@+id/button18"
+                        android:src="@drawable/kimbab"/>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+
+                >
+                    <Button
+                            android:id="@+id/button19"
+                            android:layout_width="match_parent"
+                            android:text="랜덤"
+                            android:layout_height="wrap_content">
+
+                    </Button>
+                    <Button
+                            android:id="@+id/button20"
+                            android:text="학식"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                    </Button>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>>
+
+    </FrameLayout>
+</LinearLayout>
